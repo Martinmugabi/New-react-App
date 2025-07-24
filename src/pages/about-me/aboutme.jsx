@@ -1,8 +1,10 @@
 import React from 'react'
 
-export const aboutme = () => {
+const aboutme = () => {
   return (
-    <div className='aboutme'>aboutme</div>
+    <div className='aboutme'>
+        
+    </div>
   )
 }
 
