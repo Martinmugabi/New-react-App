@@ -5,4 +5,4 @@ const award = () => {
     <div className='award'>award</div>
   )
 }
-export default award;
+export default award
