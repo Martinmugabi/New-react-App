@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './navbar';
 
  const header = () => {
   return (
@@ -21,7 +22,6 @@ import React from 'react'
                 <li><a href="/awards">Awards</a></li>
                 <li><a href="/myteam">My Team</a></li>
                 <li><a href="/gallary">Gallary</a></li>
-
             </ul>
         </nav>
     </div>
