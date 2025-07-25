@@ -1,8 +1,8 @@
 import React from 'react'
 
-function aboutme() {
+function About() {
   return (
-    <div className='aboutme'>
+    <div className='About'>
       <h1>About Me</h1>
       <p>Welcome to my portfolio! I am a passionate developer with a love for creating innovative solutions. My journey in tech has been driven by curiosity and a desire to learn continuously. I enjoy collaborating with others and am always looking for new challenges to tackle.</p>
       <p>In my free time, I like to explore new technologies, contribute to open-source projects, and share my knowledge with the community. I believe in the power of technology to make a positive impact on the world.</p>
@@ -23,7 +23,7 @@ function aboutme() {
   );
 }
 
-export default aboutme
+export default About;
 
 
 

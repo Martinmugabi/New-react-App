@@ -1,6 +1,6 @@
 import React from 'react'
 
- const gallary = () => {
+export const gallary = () => {
   return (
     <div>gallary</div>
   )

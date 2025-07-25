@@ -2,7 +2,7 @@ import React from 'react'
 
  const header = () => {
   return (
-    <div className='header'>
+    <div className='Header'>
         <h2>martin</h2>
 
         <div className='toggle-menu'>
@@ -27,4 +27,4 @@ import React from 'react'
     </div>
   )
 }
-export default header
+export default header;
