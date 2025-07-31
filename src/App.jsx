@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Home from './pages/home';
 import About from './pages/About';
@@ -17,22 +17,36 @@ import './assets/style/global.css';
 
 function App() {
   return (
-    <Router>
+    <div className="app-container">
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/aboutme" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/testmonies" element={<Testimonies />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/awards" element={<Awards />} />
-        <Route path="/myteam" element={<Myteam />} />
-        <Route path="/gallary" element={<Gallary />} />
-        <Route path="/blogs" element={<Blogs />} />
-      </Routes>
-    </Router>
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutme" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/testimonies" element={<Testimonies />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/awards" element={<Awards />} />
+          <Route path="/myteam" element={<Myteam />} />
+          <Route path="/gallary" element={<Gallary />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// Add a simple 404 component
+function NotFound() {
+  return (
+    <div className="not-found">
+      <h2>404 - Page Not Found</h2>
+      <p>The page you're looking for doesn't exist.</p>
+    </div>
   );
 }
 
