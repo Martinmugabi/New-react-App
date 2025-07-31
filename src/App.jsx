@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
-import  Home from './pages/home';
+import Home from './pages/home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Skills from './pages/skills';
@@ -14,15 +14,8 @@ import Awards from './pages/Awards';
 import Blogs from './pages/Blogs';
 import Footer from './pages/Footer';
 import './assets/style/global.css';
-import App from './App';
-
-
-
-
-
 
 function App() {
-
   return (
     <Router>
       <Header />
@@ -39,9 +32,8 @@ function App() {
         <Route path="/gallary" element={<Gallary />} />
         <Route path="/blogs" element={<Blogs />} />
       </Routes>
-      <Footer />
     </Router>
-  )
+  );
 }
 
 export default App;
