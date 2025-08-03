@@ -1,1 +1,16 @@
 
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.social-media a {
+  margin-right: 15px;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
