@@ -1,19 +1,18 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import Header from './components/Header';
-import Home from './pages/home';
+import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Skills from './pages/skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Myteam from './pages/MyTeam';
-import Gallary from './pages/gallary';
+import Gallary from './pages/Gallary';
 import Testimonies from './pages/Testimonies';
 import Awards from './pages/Awards';
 import Blogs from './pages/Blogs';
 import Footer from './pages/Footer';
-import './assets/style/global.css';
 
 function App() {
   return (

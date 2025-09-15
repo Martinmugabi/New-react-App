@@ -1,8 +1,14 @@
 import React from 'react'
+import '../App.css';
 
-export const skills = () => {
+export default function skills(){
   return (
-    <div className='skills'>skills</div>
+    <div className='skills'>
+
+
+
+      
+    </div>
   )
 }
-export default skills;
+

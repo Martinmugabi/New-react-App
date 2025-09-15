@@ -1,6 +1,7 @@
 import React from 'react'
+import '../App.css';
 
-const projects = () => {
+export default function projects(){
   return (
     <div className='projects'>
         <h1>Projects</h1>
@@ -18,4 +19,3 @@ const projects = () => {
     </div>
   )
 }
-export default projects;

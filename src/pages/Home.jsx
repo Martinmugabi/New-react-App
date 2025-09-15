@@ -1,7 +1,7 @@
 import React from 'react';
 import portfolioImage from '../assets/IMG_3683_.jpg'; // Make sure image is in src/assets
 
-const Home = () => {
+export default function Home(){
   return (
     <div className='home'>
       <h1>Welcome to My Portfolio</h1>
@@ -15,4 +15,3 @@ const Home = () => {
   );
 }
 
-export default Home;

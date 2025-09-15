@@ -1,6 +1,7 @@
 import React from 'react'
+import '../App.css'; 
 
- const myteam = () => {
+ export default function myteam () {
   return (
     <div className='myteam'>
         <h1>My Team</h1>
@@ -16,4 +17,4 @@ import React from 'react'
     </div>
   )
 }
-export default myteam;
+

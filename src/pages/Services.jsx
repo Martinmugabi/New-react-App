@@ -1,6 +1,7 @@
 import React from 'react'
+import '../App.css';
 
-export const service = () => {
+export default function service(){
   return (
     <div className='services'>
         <h1>Services</h1>
@@ -16,4 +17,4 @@ export const service = () => {
     </div>
   )
 }
-export default service;
+
